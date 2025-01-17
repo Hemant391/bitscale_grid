@@ -47,9 +47,9 @@ export default function Grid() {
           <tr className="bg-gray-300 text-left">
             <th className="p-2 border border-gray-300"></th>
             <th className="p-2 border border-gray-300"></th>
-            <th className="p-2 border border-gray-300">Input Column</th>
+            <th className="p-2 border border-gray-300"><span className='bg-black text-white p-1 text-xl mx-2'>A</span>Input Column</th>
             <th className="p-2 border border-gray-300  "><img className='inline mx-2' src="./logo1.png" alt='logo' /><span>Action Column</span></th>
-            <th className="p-2 border border-gray-300 "><img className='inline mx-2' src="./logo2.png" alt='logo' /><span>Enrich Company</span></th>
+            <th className="p-2 border border-gray-300 w-3/12"><img className='inline mx-2' src="./logo2.png" alt='logo' /><span>Enrich Company</span></th>
             <th className="p-2 border border-gray-300">Add Column</th>
           </tr>
         </thead>

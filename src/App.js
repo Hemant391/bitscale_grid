@@ -9,7 +9,7 @@ export default function App() {
     <div className="h-screen flex flex-col">
       <Topbar filename={"Name of the file"} />
       <div className="flex flex-grow">
-        <div className="h-full w-16 bg-red-200 flex flex-col">
+        <div className="h-full w-16  flex flex-col border-r-2">
           <Sidebar />
         </div>
         <div className="flex-grow bg-gray-100 flex flex-col ">
